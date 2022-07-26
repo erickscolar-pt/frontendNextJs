@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
     "engines": {
-    "node": "14.x"
+    "node": "14.19.3"
   },
   "private": true,
   "scripts": {
