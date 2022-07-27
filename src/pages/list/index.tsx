@@ -45,8 +45,7 @@ export default function List({ listaDeFilmes }: MoviesProps){
                 <ul className="list-group">
                         {movies.map((movie)=>{
                             return(
-                                <li className="list-group-item">
-
+                                <li className="list-group-item" key={movie.episode_id}>
                                     <div className="card">
                                     <div className="card-body">
                                         <h5 className="card-title">{movie.title}</h5>
