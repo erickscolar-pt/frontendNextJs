@@ -102,7 +102,7 @@ export function AuthProvider({ children }: AuthProviderProps){
             api.defaults.headers['Authorization'] = `Bearer ${token}`
 
             //Redirecionar para pagina tasks
-            Router.push('/tasks')
+            Router.push('/task')
 
 
         }catch(err){
